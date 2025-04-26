@@ -573,6 +573,9 @@ body:not(.dark-mode) .mode-switch #sunIcon {
   color: rgb(var(--clr-rgb-warning-400));
 }
 
+.cta {
+  padding-bottom: 6rem;
+}
 .cta__wrapper {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(94.89deg, #6B60E6 -5.36%, #E362E1 122.14%);
   background-repeat: no-repeat;
@@ -598,6 +601,9 @@ body:not(.dark-mode) .mode-switch #sunIcon {
 @media (min-width: 1200px) {
   .why__img-box::after {
     box-shadow: 0 0 0 3.5rem rgba(var(--clr-rgb-primary-400), 0.08), 0 0 0 7rem rgba(var(--clr-rgb-primary-400), 0.08), 0 0 0 10.5rem rgba(var(--clr-rgb-primary-400), 0.08);
+  }
+  .cta {
+    padding-bottom: 12rem;
   }
   .cta__wrapper {
     background: url("../img/cta-bg-round.svg"), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(94.89deg, #6B60E6 -5.36%, #E362E1 122.14%);

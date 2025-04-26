@@ -114,6 +114,7 @@
   }
 }
 .cta{
+  padding-bottom: 6rem;
   &__wrapper{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
                 linear-gradient(94.89deg, #6B60E6 -5.36%, #E362E1 122.14%);
@@ -148,6 +149,7 @@
     }
   }
   .cta{
+    padding-bottom: 12rem;
     &__wrapper{
       background: url('../img/cta-bg-round.svg'),linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
                   linear-gradient(94.89deg, #6B60E6 -5.36%, #E362E1 122.14%);
