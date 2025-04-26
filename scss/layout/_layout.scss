@@ -1,0 +1,12 @@
+.container,.row{
+    --bs-gutter-x:3rem;
+}
+:where(.section){
+    padding: 3rem 0;
+}
+
+@media(min-width:992px){
+    :where(.section){
+        padding: 6rem 0;
+    }
+}
