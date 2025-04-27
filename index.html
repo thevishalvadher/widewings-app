@@ -22,12 +22,13 @@
   <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
-  <link rel="preload" as="image" href="img/hero-img.webp">
+  
   
   <title>Widewings Learning App &ndash; Fun & Safe Learning for Kids</title>
   <meta name="description"
     content="Discover the Widewings Learning App - a safe, engaging, and creative platform where kids explore, learn, and grow. Designed for curious young minds with trusted content parents love.">
   <meta name="author" content="Widewings Learning App">
+  <link rel="preload" as="image" href="img/hero-img.webp" type="image/webp">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
@@ -53,7 +54,9 @@
 
   <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
   <script src="https://static.elfsight.com/platform/platform.js" async></script>
-  
+  <style>
+    body{font-family: "Nunito", sans-serif;}
+  </style>
   <link rel="stylesheet" href="scss/main.css">
 </head>
 
@@ -114,13 +117,13 @@
           <div class="col-lg-6">
             <div class="hero__img-box">
               <img src="img/hero-img.webp" alt="Mobile app home screen showcasing the main dashboard"
-              class="hero__img | img-fluid mx-auto object-fit-contain" width="400" height="530">
-              <!-- <dotlottie-player class="hero__doddle-1"
+              class="hero__img | img-fluid mx-auto object-fit-contain" width="400" height="530" loading="eager" fetchpriority="high">
+              <dotlottie-player class="hero__doddle-1"
                 src="https://lottie.host/3a7ca118-b631-482a-89a0-3297db10d461/1spGAcjY7s.lottie"
                 background="transparent" speed="1" style="width: 22rem; height:8.5rem" autoplay></dotlottie-player>
               <dotlottie-player class="hero__doddle-2"
                 src="https://lottie.host/7a444ae9-164d-4388-91b7-bdb1e2fe89fa/p5CPCoqu1B.lottie"
-                background="transparent" speed="1" style="width: 16.5rem; height: 8.5rem" autoplay></dotlottie-player> -->
+                background="transparent" speed="1" style="width: 16.5rem; height: 8.5rem" autoplay></dotlottie-player>
             </div>
           </div>
         </div>
