@@ -349,7 +349,7 @@ body:not(.dark-mode) .mode-switch #sunIcon {
   isolation: isolate;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  z-index: 9999 !important;
+  z-index: 9999999 !important;
 }
 .header__logo-link {
   font-size: 2.4rem;
