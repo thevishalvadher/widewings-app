@@ -465,21 +465,6 @@ body:not(.dark-mode) .mode-switch #sunIcon {
 .hero__img-box {
   position: relative;
 }
-.hero__img-box::before {
-  content: "";
-  width: 35vw;
-  max-width: 30rem;
-  aspect-ratio: 1;
-  border: 1px solid var(--card-border);
-  box-shadow: 0 0 0 4rem var(--clr-bg), 0 0 0 4.1rem var(--card-border), 0 0 0 8rem var(--clr-bg), 0 0 0 8.1rem var(--card-border), 0 0 0 12rem var(--clr-bg), 0 0 0 12.1rem var(--card-border);
-  border-radius: 50%;
-  z-index: -1;
-  position: absolute;
-  display: inline-block;
-  left: 50%;
-  top: 50%;
-  translate: -50% -50%;
-}
 .hero__img-box .hero__doddle-1 {
   position: absolute;
   bottom: 1rem;
