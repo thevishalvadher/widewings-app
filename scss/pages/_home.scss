@@ -237,10 +237,12 @@ body.dark-mode{
     }
   }
   .testimonials{
-    .eYJZmD{
-      background-color: var(--clr-neutral-800) !important;
+    .es-review-layout-classic{
+      > div{
+        background-color: var(--clr-neutral-800) !important;
+      }
     }
-    :is(.joEmvq,.kDfpJp,.cfunKh){
+    :is(.es-review-author-name,.es-review-content-text){
       color: var(--clr-neutral-100) !important; 
     }
   }

@@ -668,9 +668,9 @@ body.dark-mode .why__img-box, body.dark-mode .about__img-box {
   --clr-rgb-primary-400:255,255,255;
   --clr-rgb-secondary-400:255,255,255;
 }
-body.dark-mode .testimonials .eYJZmD {
+body.dark-mode .testimonials .es-review-layout-classic > div {
   background-color: var(--clr-neutral-800) !important;
 }
-body.dark-mode .testimonials :is(.joEmvq, .kDfpJp, .cfunKh) {
+body.dark-mode .testimonials :is(.es-review-author-name, .es-review-content-text) {
   color: var(--clr-neutral-100) !important;
 }/*# sourceMappingURL=main.css.map */
