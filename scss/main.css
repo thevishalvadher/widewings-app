@@ -671,6 +671,6 @@ body.dark-mode .why__img-box, body.dark-mode .about__img-box {
 body.dark-mode .testimonials .es-review-layout-classic > div {
   background-color: var(--clr-neutral-800) !important;
 }
-body.dark-mode .testimonials :is(.es-review-author-name, .es-review-content-text) {
+body.dark-mode .testimonials :is(.es-review-author-name, .es-review-content-text, div) {
   color: var(--clr-neutral-100) !important;
 }/*# sourceMappingURL=main.css.map */

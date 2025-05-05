@@ -242,7 +242,7 @@ body.dark-mode{
         background-color: var(--clr-neutral-800) !important;
       }
     }
-    :is(.es-review-author-name,.es-review-content-text){
+    :is(.es-review-author-name,.es-review-content-text,div){
       color: var(--clr-neutral-100) !important; 
     }
   }
